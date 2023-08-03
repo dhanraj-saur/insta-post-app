@@ -72,10 +72,7 @@ const Home = () => {
              {error && <h1> {error}</h1>}
              <button onClick={implementLogout}>Logout</button>
              <h1>Welcome {name}</h1>  
-             <p> Zuku has a message for you :  {message}</p>
-
-                
-                
+             <p> Zuku has a message for you :  {message}</p>                
         </div>
     )
 }

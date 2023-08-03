@@ -1,3 +1,333 @@
-input, button {
-    display: block;
+input,
+button {
+  display: block;
+}
+
+.signup_form {
+  border: 1px solid lightgray;
+  height: 80vh;
+  width: 23vw;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0 0 10px;
+  padding: 10px 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.heading {
+  color: rgb(115, 115, 115);
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0 40px 10px;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.form {
+  margin-left: 18px;
+  margin-top: 30px;
+}
+
+.form input {
+  width: 85%;
+  margin: 8px;
+  padding: 5px;
+  height: 22px;
+  font-size: 12px;
+  color: rgb(115, 115, 115);
+  background-color: #f2f3f5;
+  border: 1px solid lightgray;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 60px;
+}
+
+#btn {
+  width: 130%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgb(0, 149, 246);
+  color: white;
+  border: none;
+  height: 33px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#btn:hover {
+  background-color: #1877f2;
+}
+
+.signup_form .seprator {
+  height: 1px;
+  width: 81%;
+  margin: 25px 0;
+  background: #bbbbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.signup_form .seprator::before {
+  content: "OR";
+  color: gray;
+  font-size: 1rem;
+  padding: 0 15px;
+  margin-top: -4px;
+  background: #ffff;
+}
+
+.tag p {
+  line-height: 16px;
+  color: #4a4a4a;
+  font-size: 14px;
+  max-width: 100%;
+  margin-left: 0 !important;
+  word-break: break-word;
+  margin-top: 20px;
+}
+
+.tagA {
+  text-decoration: none;
+  display: inline;
+  color: #4a4a4a;
+  font-size: 12px;
+}
+
+.signup_btn {
+  margin-top: 20px;
+}
+
+.button1 {
+  width: 90%;
+  height: 30px;
+  margin-left: 10px;
+  background-color: rgb(0, 149, 246);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.have-account {
+  border: 1px solid lightgray;
+  width: 23vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 538px;
+  margin-top: -10px;
+}
+
+.lo-in {
+  color: #1877f2;
+  font-weight: 600;
+}
+
+.getTheApp {
+  margin-left: 670px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sites {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: 160px;
+  line-height: var(--base-line-clamp-line-height);
+  --base-line-clamp-line-height: 16px;
+  color: #4a4a4a;
+  font-size: 15px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.insta-logos {
+  display: flex;
+  margin-left: 540px;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #4a4a4a;
+  gap: 20px;
+}
+
+.login_form {
+  border: 1px solid lightgray;
+  width: 25%;
+  height: 54vh;
+  margin-bottom: 260px;
+  margin-top: 30px;
+}
+
+.login_input {
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.heads {
+  margin-left: 90px;
+  font-weight: 600;
+  margin-top: 45px;
+}
+
+.login_input input {
+  margin: 10px;
+  width: 80%;
+  height: 16px;
+  background-color: #f2f3f5;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.btn {
+  width: 80%;
+  margin-left: 40px;
+  height: 33px;
+  margin-top: 18px;
+  background-color: rgb(0, 149, 246);
+  font-size: 16px;
+  color: white;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.login_form .seprator {
+  height: 1px;
+  width: 80%;
+  margin: 25px 0;
+  background: #bbbbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+}
+
+.login_form .seprator::before {
+  content: "OR";
+  color: gray;
+  font-size: 1rem;
+  padding: 0 15px;
+  margin-top: -4px;
+  background: #ffff;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.logo p {
+  color: #385185;
+  font-weight: 600;
+}
+
+.forget {
+  margin-left: 50px;
+}
+
+.forget p {
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: 1px;
+  color: #4a4a4a;
+}
+
+.account-signup {
+  border: 1px solid lightgray;
+  margin-top: 45px;
+}
+
+.account-signup p {
+  margin-left: 60px;
+}
+
+.span {
+  color: #1877f2;
+  font-weight: 600;
+}
+
+.get {
+  margin-left: 140px;
+}
+
+.img {
+  display: flex;
+  gap: 10px;
+  margin-left: 38px;
+}
+
+.site {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-left: 160px;
+  line-height: var(--base-line-clamp-line-height);
+  --base-line-clamp-line-height: 16px;
+  color: #4a4a4a;
+  font-size: 15px;
+  margin-top: -30px;
+  cursor: pointer;
+}
+
+.insta-logo {
+  display: flex;
+  margin-left: 540px;
+  margin-top: 5px;
+  font-size: 15px;
+  color: #4a4a4a;
+  gap: 20px;
+}
+
+#language {
+  border: none;
+  color: #4a4a4a;
+  width: 95px;
+}
+
+.backgroundContainer {
+  background-position: center;
+  background-size: 100% 100%;
+  animation: fadein 2s ease-in-out infinite;
+  width: 270px;
+  height: 570px;
+  animation-iteration-count: 1;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0.1;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
